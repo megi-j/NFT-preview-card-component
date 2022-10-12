@@ -28,22 +28,23 @@ main {
     width: 100%;
     height: 302px;
     position: relative;
+    transition: 0.3s ease;
 }
-.img-div img:hover ~ .hide {
-    display: block;
+.img-div:hover .hide {
+    background-color: rgba(0,255,248,0.5);
     cursor: pointer;
+   
 }
 .img-div img {
     width: 100%;
     height: 302px;
     border-radius: 8px;
-    transition: 0.3s ease;
+    
 }
 .hide {
-    display: none;
     width: 100%;
     height: 302px;
-    background-color: rgba(0,255,248,0.5);
+    background-color: rgba(0,255,248,0);
     position: absolute;
     top: 0;
     left: 0;
