@@ -1,13 +1,17 @@
-main {
-    /* max-width: 1440px;
-    width: 100%; */
-    /* margin: 0 auto; */
-    width: 100vw;
+body {
     background-color: #0D192C;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+/* main {
+    max-width: 1440px;
+    width: 100%;  */
+    /* margin: 0 auto; */
+    /* width: 100vw;
+    
+    
+} */
 .card {
     max-width: 350px;
     width: 100%;
@@ -18,6 +22,7 @@ main {
     justify-content: center;
     align-items: center;
     border-radius: 15px;
+    margin-top: 30px;
 }
 .info {
     max-width: 302px;
